@@ -14,7 +14,8 @@ public class GameCanvas extends Canvas implements KeyListener, MouseListener{
 	private static GameCanvas instance;
 	
 	private int newlec = 3;
-	
+	private int osmzzang = 5;
+
 	public GameCanvas() {		
 		instance = this;
 				
