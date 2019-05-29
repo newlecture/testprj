@@ -13,6 +13,9 @@ public class GameCanvas extends Canvas implements KeyListener, MouseListener{
 	private Background background;
 	private static GameCanvas instance;
 	
+	private int newlec = 5;
+	private int newlec1 = 22;
+	
 	public GameCanvas() {		
 		instance = this;
 				
@@ -78,7 +81,8 @@ public class GameCanvas extends Canvas implements KeyListener, MouseListener{
 
 	@Override
 	public void keyTyped(KeyEvent e) {
-		// TODO Auto-generated method stub
+		
+		newlec = 5;
 		
 	}
 
@@ -104,7 +108,7 @@ public class GameCanvas extends Canvas implements KeyListener, MouseListener{
 
 	@Override
 	public void mousePressed(MouseEvent arg0) {
-		// TODO Auto-generated method stub
+		System.out.println("레드불 맛있어");
 		
 	}
 
